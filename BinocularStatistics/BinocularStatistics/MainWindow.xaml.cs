@@ -24,5 +24,10 @@ namespace BinocularStatistics
         {
             InitializeComponent();
         }
+
+        private void calculateBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("calculating");
+        }
     }
 }
